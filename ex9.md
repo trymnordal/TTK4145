@@ -36,5 +36,5 @@
     - There is no overhead. Depends on the system.
     - The deadline equal the period. Pretty realistic.
     
-  2. 'U = 15/50 + 10/30 + 5/20 = 0.8833..'
-     3*(2^(1/3)-1)=
+  2. `U = 15/50 + 10/30 + 5/20 = 0.8833..`
+     `3*(2^(1/3)-1)`
