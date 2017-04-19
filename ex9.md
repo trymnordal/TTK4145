@@ -30,25 +30,27 @@
   
 **Task 4:**
   1. Assumptions:
-    - Tasks are periodic with known time. Realistic.
-    - There are a fixed set of tasks. May require workarounds.
-    - Tasks are independent. Realistic.
-    - There is no overhead. Depends on the system.
-    - The deadline equal the period. Pretty realistic.
+   - Tasks are periodic with known time. Realistic.
+   - There are a fixed set of tasks. May require workarounds.
+   - Tasks are independent. Realistic.
+   - There is no overhead. Depends on the system.
+   - The deadline equal the period. Pretty realistic.
     
   2. U = 15/50 + 10/30 + 5/20 = 0.8833..
      3(2^(1/3)-1) = 0.7798
      It can not be determined whether the task set is schedulable or not.
      
   3. 
-    - Task c: 
+   - Task c: 
      w0 = 5
      => Rc = 5 <= 20
+     
    - Task b:  
      w0 = 10
      w1 = 10 + ceil(10/20)*5 = 15
      w2 = 10 + ceil(15/20)*5 = 15
      => Rb = 15 <= 30
+     
    - Task a:  
      w0 = 15  
      w1 = 15 + ceil(15/30)*10 + ceil(15/20)*5 = 15 + 10 + 5 = 30
@@ -59,5 +61,4 @@
      => Ra = 50 <= 50
      
     Conclusion: Task set is schedulable  
-
     The utilization test is sufficient, but not necessary. The response-time analysis is both sufficient and necessary.
