@@ -60,5 +60,4 @@
      w5 = 15 + ceil(50/30)*10 + ceil(50/20)*5 = 15 + 20 + 15 = 50
      => Ra = 50 <= 50
      
-    Conclusion: Task set is schedulable  
-    The utilization test is sufficient, but not necessary. The response-time analysis is both sufficient and necessary.
+    The task set is schedulable
