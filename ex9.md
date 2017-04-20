@@ -41,9 +41,10 @@
      It can not be determined whether the task set is schedulable or not.
      
   3. 
-   - Task c: 
-   w0 = 5
-   => Rc = 5 <= 20
+   - Task c:
+   
+     w0 = 5
+     => Rc = 5 <= 20
      
    - Task b:  
      w0 = 10
@@ -60,4 +61,4 @@
      w5 = 15 + ceil(50/30)*10 + ceil(50/20)*5 = 15 + 20 + 15 = 50
      => Ra = 50 <= 50
      
-    The task set is schedulable
+The task set is schedulable
